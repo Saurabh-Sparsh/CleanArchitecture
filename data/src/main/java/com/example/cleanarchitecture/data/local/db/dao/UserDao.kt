@@ -14,4 +14,7 @@ interface UserDao {
 
     @Query("SELECT * FROM user WHERE id = :id")
     fun findById(id: String): Single<UserEntity>
+    
+    ///hello saurabh
+
 }
